@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@900&family=Anton&family=Bayon&family=Gemunu+Libre:wght@500&family=Lobster&family=Philosopher:ital,wght@1,700&family=Rationale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@900&family=Bayon&family=Marmelad&family=Philosopher:ital,wght@1,700&family=Saira+Condensed:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@900&family=Bayon&family=Marmelad&family=PT+Sans+Narrow&family=Philosopher:ital,wght@1,700&family=Saira+Condensed:wght@200;300&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    background-image: url(../imagenes/fondoChica.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background: rgba( 17, 47, 13, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border-radius: 10px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    border-radius: 0.6cm;
+    margin-top: 0;
+}
+
+.navHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+    ul li{ 
+    list-style-type: none;
+    }
+
+.navHeader li a{ 
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: 'Saira Condensed', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+h2{
+    color: rgb(78, 67, 67);
+    font-family: 'Saira Condensed', sans-serif;;
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+h3{
+    color:rgb(49, 50, 69);
+    font-size: 15px;
+    font-family: 'Rationale', sans-serif;
+}
+
+.textoGeneral{
+    color: black;
+    font-size: 15px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.italoHeader{
+    height: 1cm;
+    padding: 10px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "header"
+    "logo"
+    "contenido"
+    "footer";
+}
+
+.header{
+    grid-area: header;
+}
+
+.contenido{
+    grid-area: contenido;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.footerIndex{
+    grid-area: footer;
+}
+
+.logo{
+    grid-area: logo;
+    margin-top: 20px;
+    padding: 25px;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo img{
+    height: 4cm;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ol li{
+    list-style-type: disc;
+    text-align: left;
+    }
+
+.partePrincipal h2 p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+footer{
+    background: rgba( 17, 47, 13, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.logoFooter{
+    height: 1cm;
+}
+
+.textoFooter{
+    color: black;
+    font-size: 8px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.padreFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navFooter li a{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.logosRedes img{
+    width: 20px;
+    height: 20px;
+}
+
+@media (min-width:768px){
+    header{
+        width: 80%;
+    }
+    .navHeader li a{
+        font-size: 18px;
+        padding: 15px;
+    }
+    .logo img{
+        height: 6cm;
+    }
+    .textoGeneral{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .logoFooter{
+        height: 2cm;
+    }   
+    .textoFooter{
+        font-size: 15px;
+    }
+    .navFooter li a{
+        font-size: 25px;
+    }
+    .logosRedes img{
+        height: 30px;   
+        width: 30px;
+    }
+    .italoHeader{
+        height: 2cm;
+        padding: 20px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    #img-titulo img{
+        height: 370px;
+    }
+}
+
+@media (min-width:1024px){
+    header{
+        width: 80%;
+    }
+    .navHeader li a{
+        font-size: 30px;
+        padding: 30px;
+    }
+    h2{
+        font-size: 70px;
+    }
+    .logo img{
+        height: 10cm;
+    }
+    .contenido{
+        width: 60%;
+    }
+    .textoGeneral{
+        font-size: 25px;
+    }
+    .logoFooter{
+        height: 3cm;
+    }
+    .textoFooter{
+        font-size: 18px;
+    }
+    .navFooter li a{
+        font-size: 28px;
+    }
+    .logosRedes img{
+        height: 40px;   
+        width: 40px;
+    }
+    .italoHeader{
+        height: 3cm;
+        padding: 30px;
+    }
+    h3{
+        font-size: 55px;
+    }
+    #img-titulo img{
+        height: 470px;
+    }
+    .contenedorExp{
+        will-change: 60%;
+    }
+}
+
+.contenedorExp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+.imgExperiencias{
+    height: 270px;
+    padding: 30px;
+}
+
+#img-titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.formulario{
+    padding: 30px;
+    width: 30%;
+    margin: auto;
+}
