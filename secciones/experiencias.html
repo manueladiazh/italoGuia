@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="../estilos/style.css">
-    <title>Document</title>
+    <title>ItaloGuia</title>
 </head>
 
 <body>
@@ -35,7 +37,7 @@
     <div class="contenedorExp">
         <h2>¡COMPARTAMOS ALGUNAS EXPERIENCIAS!</h2>
             <div id="img-titulo">
-                <img class="imgExperiencias" src="../imagenes/exp1.jpg" alt="Mica">
+                <img class="imgExperiencias" src="../imagenes/exp1.jpg" alt="Mica" data-aos="fade-right" data-aos-duration="1000">
                 <h3>
                     SICILIA: CÓMO TRAMITAR LA CIUDADANÍA ITALIANA POR MICA. <br>
                     SUEÑO CUMPLIDO! DESDE LA LLEGADA AL PASAPORTE: 60 DÍAS!
@@ -65,7 +67,7 @@
                     NAPOLI: CÓMO SACAR LA CIUDADANÍA ITALIANA POR DAIANA. <br>
                     SONO ITALIANA.
                 </h3>
-                <img class="imgExperiencias" src="../imagenes/exp2.jpg" alt="Dai">
+                <img class="imgExperiencias" src="../imagenes/exp2.jpg" alt="Dai" data-aos="fade-left" data-aos-duration="1000">
             </div>
             <div>
                 <p class="textoGeneral">
@@ -92,7 +94,7 @@
                 </p>
             </div>
             <div id="img-titulo">
-                <img class="imgExperiencias" src="../imagenes/exp3.jpg" alt="Mati">
+                <img class="imgExperiencias" src="../imagenes/exp3.jpg" alt="Mati" data-aos="fade-right" data-aos-duration="1000">
                 <h3>  
                 PARTANNA: CÓMO TRAMITAR LA CIUDADANÍA ITALIANA POR MATI. <br>
                 HOLA GRUPO, SONO ITALIANO!
@@ -159,5 +161,9 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

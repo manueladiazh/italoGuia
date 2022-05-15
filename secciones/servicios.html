@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="../estilos/style.css">
     <title>Document</title>
 </head>
@@ -36,7 +38,7 @@
         <div class="contenido">
             <h2>SERVICIOS</h2>
             <div id="estructura">
-                <div class="logo-img">                 
+                <div class="logo-img" data-aos="fade-right" data-aos-duration="1000">                 
                     <h3>CONSULTA EXPRESS</h3>
                     <img class="imgServicios" src="../imagenes/consulta.png" alt="consultaExpress">
                 </div>
@@ -48,7 +50,7 @@
                 </div>
             </div>
             <div id="estructura">
-                <div class="logo-img">
+                <div class="logo-img" data-aos="fade-right" data-aos-duration="1000">
                     <h3>GUIA INSTRUCTIVA</h3>
                     <img class="imgServicios" src="../imagenes/instruccion.png" alt="guiaInstructiva">
                 </div>
@@ -59,7 +61,7 @@
                 </div>
             </div>
             <div id="estructura">
-                <div class="logo-img">
+                <div class="logo-img" data-aos="fade-right" data-aos-duration="1000">
                     <h3>SERVICIO DE CONTROL DE LA DOCUMENTACIÓN</h3>
                     <img class="imgServicios" src="../imagenes/evaluacion.png" alt="control">
                 </div>
@@ -114,5 +116,9 @@
                 </div>
             </div>
         </footer>
+
+        <script>
+            AOS.init();
+        </script>
 </body>
 </html>
