@@ -156,40 +156,21 @@ footer{
     backdrop-filter: blur( 15.5px );
     -webkit-backdrop-filter: blur( 15.5px );
     border-radius: 10px;
-    padding: 30px;
+    padding: 20px;
     margin-bottom: 0;
-    margin-top: 20px;
+    margin-top: 78px;
 }
 
 .logoFooter{
-    height: 1cm;
+    height: 1.5cm;
 }
 
 .textoFooter{
     color: black;
     font-size: 8px;
     font-family: 'PT Sans Narrow', sans-serif;
-}
-
-.padreFooter{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navFooter li a{
-    display: flex;
-    flex-direction: column; 
-    text-align: center;
-    font-size: 10px;
-    text-decoration: none;
-    color: black;
-    font-family: 'Saira Condensed', sans-serif;
-}
-
-.logosRedes img{
-    width: 20px;
-    height: 20px;
+    width: 70%;
+    margin: auto;
 }
 
 @media (min-width:768px){
@@ -215,13 +196,6 @@ footer{
     .textoFooter{
         font-size: 15px;
     }
-    .navFooter li a{
-        font-size: 25px;
-    }
-    .logosRedes img{
-        height: 30px;   
-        width: 30px;
-    }
     .italoHeader{
         height: 2cm;
         padding: 20px;
@@ -244,13 +218,17 @@ footer{
         align-items: center;
         margin-top: 20px;
     }
-    .parteNoticias{
-        display: flex;
-        flex-direction: row;
-        padding: 20px;
+    .fa-brands{
+        margin-top: 15px;
+        font-size: 25px;
+        padding: 2px;
     }
-    #imgNot{
-        height: 150px;
+    .noticias{
+        justify-content: space-evenly;
+    }
+    .card{
+        padding: 8px;
+        margin-bottom: 10px;
     }
 }
 
@@ -280,13 +258,6 @@ footer{
     .textoFooter{
         font-size: 18px;
     }
-    .navFooter li a{
-        font-size: 28px;
-    }
-    .logosRedes img{
-        height: 40px;   
-        width: 40px;
-    }
     .italoHeader{
         height: 3cm;
         padding: 30px;
@@ -306,16 +277,19 @@ footer{
         align-items: center;
         margin-top: 30px;
     }
-    .parteNoticias{
-        display: flex;
-        flex-direction: row;
-        padding: 30px;
+    .fa-brands{
+        margin-top: 20px;
+        font-size: 30px;
+        padding: 4px;
     }
-    #imgNot{
-        height: 200px;
+    .noticias{
+        justify-content: space-evenly;
+    }
+    .card{
+        padding: 8px;
+        margin-bottom: 20px;
     }
 }
-
 
 .contenedorExp{
     display: flex;
@@ -337,15 +311,6 @@ footer{
     align-items: center;
 }
 
-.formulario{
-    padding: 30px;
-    width: 30%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .imgServicios{
     height: 120px;
 }
@@ -358,3 +323,21 @@ footer{
     transform: scale(1.05);
     transition: all 1.2s;
 }
+
+.form-floating{
+    width: 60%;
+    margin: auto;
+}
+
+.fa-brands{
+    color: white;
+}
+
+.fa-brands:hover{
+    color: black;
+}
+
+.card{
+    padding: 4px;
+}
+
