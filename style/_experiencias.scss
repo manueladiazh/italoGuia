@@ -1,0 +1,17 @@
+.contenedorExp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    #img-titulo{
+        text-align: center;
+    }
+}
+
+.imgExperiencias{
+    height: 270px;
+    padding: 15px;
+}
+

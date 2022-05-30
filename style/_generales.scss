@@ -1,0 +1,122 @@
+body{
+    background-image: url(../imagenes/fondoChica.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background: rgba( 17, 47, 13, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border-radius: 10px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    border-radius: 0.6cm;
+    margin-top: 0;
+    nav .navHeader{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        li{ 
+            list-style-type: none;
+        }
+    }
+}
+
+.navHeader li a{
+        list-style-type: none;
+        text-decoration: none;
+        color: $color1;
+        font-size: 12px;
+        font-family: 'Saira Condensed', sans-serif;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+}
+
+.footerIndex{
+    background: rgba( 17, 47, 13, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 0;
+    margin-top: 78px;
+}
+
+.logoFooter{
+    height: 1.5cm;
+}
+
+.textoFooter{
+    color: $color1;
+    font-size: 8px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Kite One', sans-serif;
+    padding: 40px;
+    background-color: rgb(181, 214, 170) ;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+h2{
+    color: rgb(78, 67, 67);
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    padding: 18px;
+    font-weight: 2px;
+}
+
+h3{
+    color:rgb(35, 89, 83);
+    font-size: 20px;
+    font-family:'Oswald', sans-serif;
+    padding: 18px;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textoGeneral{
+    color: $color1;
+    font-size: 15px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 15.5px );
+    border-radius: 10px;
+    padding: 20px;
+    &:hover{
+        transform: scale(1.05);
+        transition: all 1.2s;
+    }
+}
+
+.italoHeader{
+    height: 2cm;
+    padding: 15px;
+}
+
+.fa-brands{
+    color: white;
+    &:hover{
+        color: $color1;
+    }
+}

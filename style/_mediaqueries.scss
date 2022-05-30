@@ -1,0 +1,137 @@
+@media (min-width:768px){
+    header{
+        width: 75%;
+    }
+    .navHeader li a{
+        font-size: 18px;
+        padding: 15px;
+    }
+    .logo img{
+        height: 6cm;
+    }
+    .textoGeneral{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 35px;
+    }
+    .logoFooter{
+        height: 2cm;
+    }   
+    .textoFooter{
+        font-size: 15px;
+    }
+    .italoHeader{
+        height: 3cm;
+        padding: 20px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    #img-titulo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    #img-titulo img{
+        height: 370px;
+    }
+    #img-titulo h3{
+        text-align: left;
+    }
+    .tituloNot{
+        font-size: 30px;
+    }
+    .textoNot{
+        font-size: 20px;
+    }
+    #estructura{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .fa-brands{
+        margin-top: 15px;
+        font-size: 25px;
+        padding: 2px;
+    }
+    .noticias{
+        justify-content: space-evenly;
+    }
+    .card{
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width:1024px){
+    header{
+        width: 80%;
+    }
+    .navHeader li a{
+        font-size: 30px;
+        padding: 30px;
+    }
+    h2{
+        font-size: 70px;
+    }
+    .logo img{
+        height: 10cm;
+    }
+    .contenido{
+        width: 60%;
+    }
+    .textoGeneral{
+        font-size: 25px;
+    }
+    .logoFooter{
+        height: 3cm;
+    }
+    .textoFooter{
+        font-size: 18px;
+    }
+    .italoHeader{
+        height: 4cm;
+        padding: 30px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 65px;
+    }
+    h3{
+        font-size: 45px;
+    }
+    #img-titulo img{
+        height: 470px;
+    }
+    .contenedorExp{
+        width: 60%;
+    }
+    #estructura{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .fa-brands{
+        margin-top: 20px;
+        font-size: 30px;
+        padding: 4px;
+    }
+    .noticias{
+        justify-content: space-evenly;
+    }
+    .card{
+        padding: 8px;
+        margin-bottom: 20px;
+    }
+}
