@@ -1,5 +1,5 @@
 body{
-    background-image: url(../imagenes/fondoChica.jpg);
+    background-image: url(../imagenes/fondoChicaBaja.jpg);
     background-position: center center; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,35 +33,12 @@ header{
 .navHeader li a{
         list-style-type: none;
         text-decoration: none;
-        color: $color1;
+        color: black;
         font-size: 12px;
         font-family: 'Saira Condensed', sans-serif;
         display: flex;
         justify-content: space-evenly;
         padding: 10px;
-}
-
-.footerIndex{
-    background: rgba( 17, 47, 13, 0.7 );
-    box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
-    backdrop-filter: blur( 15.5px );
-    -webkit-backdrop-filter: blur( 15.5px );
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 0;
-    margin-top: 78px;
-}
-
-.logoFooter{
-    height: 1.5cm;
-}
-
-.textoFooter{
-    color: $color1;
-    font-size: 8px;
-    font-family: 'PT Sans Narrow', sans-serif;
-    width: 70%;
-    margin: auto;
 }
 
 h1{
@@ -94,7 +71,7 @@ h3{
 }
 
 .textoGeneral{
-    color: $color1;
+    color: black;
     font-size: 15px;
     font-family: 'PT Sans Narrow', sans-serif;
     background: rgba( 255, 255, 255, 0.1 );
@@ -117,6 +94,6 @@ h3{
 .fa-brands{
     color: white;
     &:hover{
-        color: $color1;
+        color: black;
     }
 }

@@ -1,0 +1,36 @@
+$iconosRedes: (
+    instagram: #f41a63,
+    facebook: #3a5795,
+    whatsapp: #1d811a,
+);
+
+@each $red, $color in $iconosRedes {
+    .fa-#{$red}{
+        background-color: $color;
+        border-radius: 10px;
+    }
+};
+
+@mixin prueba ($font, $padding){ 
+    font-size: $font;
+    padding: $padding;
+}
+
+.pruebaMixin{
+    @include prueba (10px, 10px);
+    color: rgb(25, 63, 30);
+    background-color: burlywood;
+    width: 15%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width:768px){
+    .pruebaMixin{
+        @include prueba (20px, 20px);
+        width: 25%;
+}
+}

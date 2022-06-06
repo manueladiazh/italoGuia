@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@900&family=Bayon&family=Kite+One&family=Marmelad&family=PT+Sans+Narrow&family=Philosopher:ital,wght@1,700&family=Saira+Condensed:wght@200;300&family=Tenor+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@900&family=Bayon&family=Kite+One&family=Marmelad&family=Oswald:wght@300;400&family=PT+Sans+Narrow&family=Philosopher:ital,wght@1,700&family=Tenor+Sans&display=swap");
 body {
-  background-image: url(../imagenes/fondoChica.jpg);
+  background-image: url(../imagenes/fondoChicaBaja.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -64,30 +64,6 @@ header nav .navHeader li {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   padding: 10px;
-}
-
-.footerIndex {
-  background: rgba(17, 47, 13, 0.7);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
-  backdrop-filter: blur(15.5px);
-  -webkit-backdrop-filter: blur(15.5px);
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 0;
-  margin-top: 78px;
-}
-
-.logoFooter {
-  height: 1.5cm;
-}
-
-.textoFooter {
-  color: black;
-  font-size: 8px;
-  font-family: 'PT Sans Narrow', sans-serif;
-  width: 70%;
-  margin: auto;
 }
 
 h1 {
@@ -246,6 +222,30 @@ ol li {
 
 .card {
   padding: 4px;
+}
+
+.footerIndex {
+  background: rgba(17, 47, 13, 0.7);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
+  backdrop-filter: blur(15.5px);
+  -webkit-backdrop-filter: blur(15.5px);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 0;
+  margin-top: 78px;
+}
+
+.logoFooter {
+  height: 1.5cm;
+}
+
+.textoFooter {
+  color: black;
+  font-size: 8px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  width: 70%;
+  margin: auto;
 }
 
 .contenedorExp {
@@ -446,6 +446,46 @@ ol li {
   .card {
     padding: 8px;
     margin-bottom: 20px;
+  }
+}
+
+.fa-instagram {
+  background-color: #f41a63;
+  border-radius: 10px;
+}
+
+.fa-facebook {
+  background-color: #3a5795;
+  border-radius: 10px;
+}
+
+.fa-whatsapp {
+  background-color: #1d811a;
+  border-radius: 10px;
+}
+
+.pruebaMixin {
+  font-size: 10px;
+  padding: 10px;
+  color: #193f1e;
+  background-color: burlywood;
+  width: 15%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .pruebaMixin {
+    font-size: 20px;
+    padding: 20px;
+    width: 25%;
   }
 }
 
