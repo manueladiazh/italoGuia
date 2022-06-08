@@ -464,31 +464,6 @@ ol li {
   border-radius: 10px;
 }
 
-.pruebaMixin {
-  font-size: 10px;
-  padding: 10px;
-  color: #193f1e;
-  background-color: burlywood;
-  width: 15%;
-  margin: auto;
-  margin-top: 20px;
-  border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media (min-width: 768px) {
-  .pruebaMixin {
-    font-size: 20px;
-    padding: 20px;
-    width: 25%;
-  }
-}
-
 * {
   padding: 0%;
   margin: 0;
