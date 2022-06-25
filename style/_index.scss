@@ -9,13 +9,20 @@
     "footer";
 }
 
+.inicioIndex{
+    background-image: url(../imagenes/fondoChicaBaja.jpg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 700px;
+}
+
 .header{
     grid-area: header;
 }
 
 .logo{
     grid-area: logo;
-    margin-top: 20px;
     padding: 25px;
     background: rgba( 255, 255, 255, 0.1 );
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -24,7 +31,9 @@
     border-radius: 10px;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    align-items: center;
+    margin-top: 180px;
+    margin-bottom: 10px;
     img{
         height: 4cm;
     }
@@ -39,6 +48,7 @@
     width: 80%;
     margin: auto;
 }
+
 .footerIndex{
     grid-area: footer;
 }
@@ -55,6 +65,20 @@ ol li{
     flex-direction: column;
 }
 
-.card{
-    padding: 4px;
+.noticias{
+    font-size: 15px;
+    .card{
+        padding: 4px;
+        background-color: beige;
+    }
 }
+
+#frase{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-weight: bolder;
+    color: white;
+}
+

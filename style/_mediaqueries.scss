@@ -19,7 +19,7 @@
         font-size: 40px;
     }
     h3{
-        font-size: 35px;
+        font-size: 27px;
     }
     .logoFooter{
         height: 2cm;
@@ -30,9 +30,6 @@
     .italoHeader{
         height: 3cm;
         padding: 20px;
-    }
-    h3{
-        font-size: 25px;
     }
     #img-titulo{
         display: flex;
@@ -51,12 +48,6 @@
     .textoNot{
         font-size: 20px;
     }
-    #estructura{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-top: 20px;
-    }
     .fa-brands{
         margin-top: 15px;
         font-size: 25px;
@@ -68,6 +59,13 @@
     .card{
         padding: 8px;
         margin-bottom: 10px;
+    }
+    .navbar-nav{
+        font-size: 18px;
+        a{
+            color: white;
+            margin-right: 15px;
+        }
     }
 }
 
@@ -83,13 +81,13 @@
         font-size: 70px;
     }
     .logo img{
-        height: 10cm;
+        height: 8cm;
     }
     .contenido{
         width: 60%;
     }
     .textoGeneral{
-        font-size: 25px;
+        font-size: 20px;
     }
     .logoFooter{
         height: 3cm;
@@ -105,7 +103,7 @@
         font-size: 50px;
     }
     h2{
-        font-size: 65px;
+        font-size: 50px;
     }
     h3{
         font-size: 45px;
@@ -115,12 +113,6 @@
     }
     .contenedorExp{
         width: 60%;
-    }
-    #estructura{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-top: 30px;
     }
     .fa-brands{
         margin-top: 20px;
@@ -133,5 +125,15 @@
     .card{
         padding: 8px;
         margin-bottom: 20px;
+    }
+    .inicioIndex{
+        height: 750px;
+    }
+    .navbar-nav{
+        font-size: 18px;
+        a{
+            color: white;
+            margin-right: 15px;
+        }
     }
 }

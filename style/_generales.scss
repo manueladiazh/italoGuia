@@ -1,57 +1,20 @@
 body{
-    background-image: url(../imagenes/fondoChicaBaja.jpg);
-    background-position: center center; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-header{
-    background: rgba( 17, 47, 13, 0.7 );
-    box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
-    backdrop-filter: blur( 15.5px );
-    -webkit-backdrop-filter: blur( 15.5px );
-    border-radius: 10px;
-    display: flex;
-    position: sticky;
-    top: 0;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin: auto;
-    border-radius: 0.6cm;
-    margin-top: 0;
-    nav .navHeader{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        li{ 
-            list-style-type: none;
-        }
-    }
-}
-
-.navHeader li a{
-        list-style-type: none;
-        text-decoration: none;
-        color: black;
-        font-size: 12px;
-        font-family: 'Saira Condensed', sans-serif;
-        display: flex;
-        justify-content: space-evenly;
-        padding: 10px;
+    background-color: #EBDCB2;
 }
 
 h1{
     font-family: 'Kite One', sans-serif;
-    padding: 40px;
-    background-color: rgb(181, 214, 170) ;
-    margin-top: 15px;
-    border-radius: 50px;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 110px;
+    font-weight: lighter;
 }
 
 h2{
-    color: rgb(78, 67, 67);
-    font-family: 'Saira Condensed', sans-serif;
+    color: rgb(46, 46, 46);
+    font-family: 'Archivo', sans-serif;
     font-size: 30px;
     padding: 18px;
     font-weight: 2px;
@@ -64,16 +27,49 @@ h3{
     padding: 18px;
 }
 
+.navbar{
+    background-color: #1E4639;
+    box-shadow: 0 8px 32px 0 rgba(46, 39, 39, 0.481);
+    backdrop-filter: blur (15.5px);
+    height: 110px;
+}
+
+.logoNav{
+    height: 80px;
+    width: 80px;
+}
+
+.navbar-nav{
+    font-size: 15px;
+    a{
+        color: black;
+    }
+}
+
+.italoHeader{
+    height: 2cm;
+    padding: 15px;
+}
+
 .contenido{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+.sections{
+    background-image: url(../imagenes/fondoSections.jpeg);
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
 .textoGeneral{
     color: black;
     font-size: 15px;
-    font-family: 'PT Sans Narrow', sans-serif;
+    font-family: 'Archivo', sans-serif;
     background: rgba( 255, 255, 255, 0.1 );
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     backdrop-filter: blur( 15.5px );
@@ -84,11 +80,6 @@ h3{
         transform: scale(1.05);
         transition: all 1.2s;
     }
-}
-
-.italoHeader{
-    height: 2cm;
-    padding: 15px;
 }
 
 .fa-brands{

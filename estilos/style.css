@@ -1,82 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@900&family=Bayon&family=Marmelad&family=Philosopher:ital,wght@1,700&family=Saira+Condensed:wght@200;300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@900&family=Bayon&family=Marmelad&family=PT+Sans+Narrow&family=Philosopher:ital,wght@1,700&family=Saira+Condensed:wght@200;300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@900&family=Bayon&family=Kite+One&family=Marmelad&family=PT+Sans+Narrow&family=Philosopher:ital,wght@1,700&family=Saira+Condensed:wght@200;300&family=Tenor+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@900&family=Bayon&family=Kite+One&family=Marmelad&family=Oswald:wght@300;400&family=PT+Sans+Narrow&family=Philosopher:ital,wght@1,700&family=Tenor+Sans&display=swap");
 body {
-  background-image: url(../imagenes/fondoChicaBaja.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-header {
-  background: rgba(17, 47, 13, 0.7);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
-  backdrop-filter: blur(15.5px);
-  -webkit-backdrop-filter: blur(15.5px);
-  border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 100%;
-  margin: auto;
-  border-radius: 0.6cm;
-  margin-top: 0;
-}
-
-header nav .navHeader {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-header nav .navHeader li {
-  list-style-type: none;
-}
-
-.navHeader li a {
-  list-style-type: none;
-  text-decoration: none;
-  color: black;
-  font-size: 12px;
-  font-family: 'Saira Condensed', sans-serif;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding: 10px;
+  background-color: #EBDCB2;
 }
 
 h1 {
   font-family: 'Kite One', sans-serif;
-  padding: 40px;
-  background-color: #b5d6aa;
-  margin-top: 15px;
-  border-radius: 50px;
+  padding: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 110px;
+  font-weight: lighter;
 }
 
 h2 {
-  color: #4e4343;
-  font-family: 'Saira Condensed', sans-serif;
+  color: #2e2e2e;
+  font-family: 'Archivo', sans-serif;
   font-size: 30px;
   padding: 18px;
   font-weight: 2px;
@@ -87,6 +34,33 @@ h3 {
   font-size: 20px;
   font-family: 'Oswald', sans-serif;
   padding: 18px;
+}
+
+.navbar {
+  background-color: #1E4639;
+  -webkit-box-shadow: 0 8px 32px 0 rgba(46, 39, 39, 0.481);
+          box-shadow: 0 8px 32px 0 rgba(46, 39, 39, 0.481);
+  -webkit-backdrop-filter: blur 15.5px;
+          backdrop-filter: blur 15.5px;
+  height: 110px;
+}
+
+.logoNav {
+  height: 80px;
+  width: 80px;
+}
+
+.navbar-nav {
+  font-size: 15px;
+}
+
+.navbar-nav a {
+  color: black;
+}
+
+.italoHeader {
+  height: 2cm;
+  padding: 15px;
 }
 
 .contenido {
@@ -102,10 +76,19 @@ h3 {
           justify-content: center;
 }
 
+.sections {
+  background-image: url(../imagenes/fondoSections.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
+
 .textoGeneral {
   color: black;
   font-size: 15px;
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Archivo', sans-serif;
   background: rgba(255, 255, 255, 0.1);
   -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
           box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -120,11 +103,6 @@ h3 {
           transform: scale(1.05);
   -webkit-transition: all 1.2s;
   transition: all 1.2s;
-}
-
-.italoHeader {
-  height: 2cm;
-  padding: 15px;
 }
 
 .fa-brands {
@@ -145,6 +123,14 @@ h3 {
       grid-template-areas: "header" "logo" "contenido" "footer";
 }
 
+.inicioIndex {
+  background-image: url(../imagenes/fondoChicaBaja.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+}
+
 .header {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -155,7 +141,6 @@ h3 {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: logo;
-  margin-top: 20px;
   padding: 25px;
   background: rgba(255, 255, 255, 0.1);
   -webkit-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
@@ -169,7 +154,11 @@ h3 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 180px;
+  margin-bottom: 10px;
 }
 
 .logo img {
@@ -220,17 +209,34 @@ ol li {
           flex-direction: column;
 }
 
-.card {
+.noticias {
+  font-size: 15px;
+}
+
+.noticias .card {
   padding: 4px;
+  background-color: beige;
+}
+
+#frase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+  font-weight: bolder;
+  color: white;
 }
 
 .footerIndex {
-  background: rgba(17, 47, 13, 0.7);
+  background: #1E4639;
   -webkit-box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
           box-shadow: 0 8px 32px 0 rgba(3, 3, 7, 0.37);
   backdrop-filter: blur(15.5px);
   -webkit-backdrop-filter: blur(15.5px);
-  border-radius: 10px;
   padding: 20px;
   margin-bottom: 0;
   margin-top: 78px;
@@ -242,7 +248,7 @@ ol li {
 
 .textoFooter {
   color: black;
-  font-size: 8px;
+  font-size: 12px;
   font-family: 'PT Sans Narrow', sans-serif;
   width: 70%;
   margin: auto;
@@ -307,7 +313,7 @@ ol li {
     font-size: 40px;
   }
   h3 {
-    font-size: 35px;
+    font-size: 27px;
   }
   .logoFooter {
     height: 2cm;
@@ -318,9 +324,6 @@ ol li {
   .italoHeader {
     height: 3cm;
     padding: 20px;
-  }
-  h3 {
-    font-size: 25px;
   }
   #img-titulo {
     display: -webkit-box;
@@ -346,19 +349,6 @@ ol li {
   .textoNot {
     font-size: 20px;
   }
-  #estructura {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 20px;
-  }
   .fa-brands {
     margin-top: 15px;
     font-size: 25px;
@@ -372,6 +362,13 @@ ol li {
   .card {
     padding: 8px;
     margin-bottom: 10px;
+  }
+  .navbar-nav {
+    font-size: 18px;
+  }
+  .navbar-nav a {
+    color: white;
+    margin-right: 15px;
   }
 }
 
@@ -387,13 +384,13 @@ ol li {
     font-size: 70px;
   }
   .logo img {
-    height: 10cm;
+    height: 8cm;
   }
   .contenido {
     width: 60%;
   }
   .textoGeneral {
-    font-size: 25px;
+    font-size: 20px;
   }
   .logoFooter {
     height: 3cm;
@@ -409,7 +406,7 @@ ol li {
     font-size: 50px;
   }
   h2 {
-    font-size: 65px;
+    font-size: 50px;
   }
   h3 {
     font-size: 45px;
@@ -419,19 +416,6 @@ ol li {
   }
   .contenedorExp {
     width: 60%;
-  }
-  #estructura {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 30px;
   }
   .fa-brands {
     margin-top: 20px;
@@ -446,6 +430,16 @@ ol li {
   .card {
     padding: 8px;
     margin-bottom: 20px;
+  }
+  .inicioIndex {
+    height: 750px;
+  }
+  .navbar-nav {
+    font-size: 18px;
+  }
+  .navbar-nav a {
+    color: white;
+    margin-right: 15px;
   }
 }
 
