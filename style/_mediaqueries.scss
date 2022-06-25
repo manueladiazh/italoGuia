@@ -67,6 +67,12 @@
             margin-right: 15px;
         }
     }
+    #estructura{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 30px;
+    }
 }
 
 @media (min-width:1024px){
